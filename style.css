@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+*{
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.books {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.books .book {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.books .book:nth-child(odd) {
+  background-color: rgb(202, 202, 202);
+}
+
+.books .book p {
+  font-size: 18px;
+  color: rgb(59, 59, 59);
+  font-weight: bold;
+}
+
+.books .book .remove {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  background-color: rgb(3, 163, 3);
+  border: 0;
+  border-radius: 4px;
+  color: white;
+}
+
+.books .book .remove:hover {
+  background-color: rgb(2, 131, 2);
+}
+
+.line {
+  width: 100px;
+  border: 1px solid rgb(3, 163, 3);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.add-area {
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 96%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#add-btn {
+  align-self: flex-end;
+  width: 75px;
+  height: 50px;
+  font-size: 15px;
+  background-color: rgb(3, 163, 3);
+  border: 0;
+  border-radius: 4px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-list ul {
+  font-weight: 400;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.home {
+  font-weight: 500;
+}
+.home:hover {
+  cursor: pointer;
+  color: rgb(3, 163, 3);
+}
+
+.nav-list ul li:hover {
+  cursor: pointer;
+  color: rgb(3, 163, 3);
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 10px;
+}
+
+.display-none {
+  display: none;
+}
+
+.active {
+  color: rgb(3, 163, 3);
+}
+
+#ben{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  padding: 20px 0;
+  border: 1px solid black;
+  width: 100%;
+}
+
+footer div {
+  margin-left: 20px;
+}
+
+.contact .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.list,
+.add-new,
+.contact {
+  min-height: 67vh;
+}
