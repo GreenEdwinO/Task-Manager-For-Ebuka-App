@@ -146,6 +146,11 @@ footer div {
   font-size: 25px;
 }
 
+p, ul {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
 .list,
 .add-new,
 .contact {
