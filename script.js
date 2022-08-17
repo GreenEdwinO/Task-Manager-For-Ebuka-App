@@ -85,7 +85,7 @@ const showBooks = () => {
 
     const titleParagraph = document.createElement('p');
     titleParagraph.classList.add('title-author');
-    titleParagraph.textContent = `"${library.books[i].title}" by ${library.books[i].author}`;
+    titleParagraph.textContent = `"${library.books[i].title}" (Reason:) ${library.books[i].author}`;
     bookDiv.appendChild(titleParagraph);
 
     const removeBtn = document.createElement('button');

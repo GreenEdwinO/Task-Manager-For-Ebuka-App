@@ -55,7 +55,7 @@ h2 {
 }
 
 .add-area {
-  width: 25%;
+  width: 50%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -155,4 +155,10 @@ p, ul {
 .add-new,
 .contact {
   min-height: 67vh;
+}
+
+@media screen and (max-width: 480px)  {
+  .add-area {
+    width: 90%;
+  }
 }
